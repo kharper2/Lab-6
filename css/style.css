@@ -1,31 +1,67 @@
-nav#main-navbar{
+#main-navbar{
   background-color: blue;
+  float: left;
+  width: 100%
 }
 
-nav#main-navbar ul{
+#main-navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: relative;
+  right: 50%;
 }
 
-nav#main-navbar ul li{
-  float:left;
-  margin: 0;
+#main-navbar ul li{
+  float: left;
+  display: block;
 }
 
-nav#navbar-container ul li a{
-  display:
-  background-color:blue;
-  font-weight:
-  text-decoration:
-  text-align:
-  width: 100%
-  padding: 0;
-  border-radius:
-}
-
-nav#navbar-container ul li a:hover{
-  background-color: #000;
+#main-navbar ul li a{
+  display: block;
+  padding: 10px 20px;
+  display: block;
   color: #fff;
-  text-decoration: underline overline:
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover{
+  background-color: #000;
+}
+
+#onpage{
+  text-decoration: underline overline;
+}
+
+#navbar-container{
+  display: block;
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
+#sidebar{
+  background-color: red;
+  right: 0%;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#sidebar ul li a:hover{
+  background-color: #000;
+}
