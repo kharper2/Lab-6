@@ -1,14 +1,7 @@
 #main-navbar{
   background-color: blue;
-  position: relative;
   float: left;
   width: 100%
-}
-
-#navbar-container{
-  float: left;
-  position: relative;
-  left: 50%;
 }
 
 #main-navbar ul{
@@ -28,6 +21,7 @@
 #main-navbar ul li a{
   display: block;
   padding: 10px 20px;
+  display: block;
   color: #fff;
   text-decoration: none;
 }
@@ -40,10 +34,17 @@
   text-decoration: underline overline;
 }
 
+#navbar-container{
+  display: block;
+  position: relative;
+  float: left;
+  left: 50%;
+}
+
 #sidebar{
   background-color: red;
-  position: fixed;
   right: 0%;
+  position: fixed;
   height: 100%;
   width: 20%;
 }
